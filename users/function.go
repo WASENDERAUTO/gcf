@@ -14,7 +14,7 @@ func init() {
 
 func wasenderauto_Users(w http.ResponseWriter, r *http.Request) {
 	// Set CORS headers for the preflight request
-	w.Header().Set("Access-Control-Allow-Origin", "https://wasenderauto.github.io")
+	w.Header().Set("Access-Control-Allow-Origin", "https://cyberoren.my.id")
 	if r.Method == http.MethodOptions {
 		w.Header().Set("Access-Control-Allow-Methods", "GET,POST")
 		w.Header().Set("Access-Control-Allow-Headers", "Content-Type,Authorization,Token")
